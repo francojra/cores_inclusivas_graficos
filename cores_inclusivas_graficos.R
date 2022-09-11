@@ -46,4 +46,14 @@ library(cols4all)
 
 # Funções do pacote ------------------------------------------------------------------------------------------------------------------------
 
+c4a_gui() # Abre arquivo Shiny para seleção das paletas de cores.
+
+c4a("kelly", 7) # Seleciona a paleta "Kelly" com total de 7 cores.
+
+c4a_palettes(type = "div", series = "hcl") # Seleciona cores do tipo divergente
+# da série hcl.
+
+c4a("hcl.purple_green", 11) # Seleciona 11 cores da paleta hcl.purple_green.
+
+c4a_na("hcl.purple_green") # Seleciona uma cor associada para valores perdidos.
 
