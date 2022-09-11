@@ -18,5 +18,21 @@
 ### Em adição, para cada paleta é atribuído um valor para as cores ausentes,
 ### o que é especialmente importante para visualização de dados espaciais.
 
+# Outros pacotes com paletas de cores inclusivas -------------------------------------------------------------------------------------------
 
+### - colorblindcheck
+### - colorBlindness
+### - viridis
+### - munsell
+### - RColorBrewer
+### - dichromat
+### - colorblindr
+### - shades
+### - ggsci
+
+# Baixar pacote ----------------------------------------------------------------------------------------------------------------------------
+
+# install.packages("devtools")
+remotes::install_github("mtennekes/cols4all")
+library(cols4all)
 
